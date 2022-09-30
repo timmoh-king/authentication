@@ -13,6 +13,7 @@ const Input = ({htmlFor, label, type, id, placeholder, onChange }) => {
         placeholder={placeholder}
         onChange={onChange}
         className="form-control"
+        required
         // aria-describedby="passwordHelpBlock"
       />
     </div>

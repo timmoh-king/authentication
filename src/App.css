@@ -30,6 +30,6 @@
 .error-message{
   font-size: 12px;
   padding: 3px;
-  color: red;
+  text-decoration: red;
   display: none;
 }
