@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+.login{
+  width: 600px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-top: 125px;
+}
+.signup{
+  width: 600px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-top: 75px;
+}
+.form-label{
+  align-items: flex-start;
+  text-align: start;
+}
+.form{
+  background-color: rgb(250, 246, 255);
+  height: 400px;
+  padding: 0px 60px;
+  border-radius: 5px;
+}
+.error-message{
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
