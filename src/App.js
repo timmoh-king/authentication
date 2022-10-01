@@ -1,8 +1,8 @@
-import './App.css';
+import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Navbar from './components/Navbar';
-import Login from './Login';
-import Signup from './Signup';
+import Navbar from "./components/Navbar";
+import Login from "./Login";
+import Signup from "./Signup";
 
 function App() {
   return (

@@ -5,13 +5,13 @@ const Button = ({ label, onClick, isNavbar }) => {
     <div>
       {isNavbar ? (
         <div>
-          <button onClick={onClick} className="btn btn-primary btn-md">
+          <button onClick={onClick} className="btn btn-primary btn-md btn-change">
             {label}
           </button>
         </div>
       ) : (
         <div className="d-grid gap-2 mx-auto mt-3">
-          <button className="btn btn-primary" type="button">
+          <button className="btn btn-primary btn-change" type="button">
             {label}
           </button>
         </div>

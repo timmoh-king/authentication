@@ -18,9 +18,7 @@ const Navbar = () => {
               aria-label="Search"
             />
             <div className="d-flex">
-            <button className="btn btn-outline-success" type="submit">
-              Post
-            </button>
+            <Button onClick={()=>navigate("/login")} isNavbar={true} label="logout" />
             <div className="mx-2">
             <Button onClick={()=>navigate("/login")} isNavbar={true} label="login" />
             </div>

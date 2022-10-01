@@ -31,8 +31,10 @@ const Login = () => {
 
     if (!value.email) {
       emailError = "please enter email address";
+      setError({ emailError});
     } else if (!value.email.includes("@")) {
       emailError = "invalid email";
+      setError({ emailError});
     }
 
     if (!value.password) {
@@ -57,7 +59,7 @@ const Login = () => {
     e.preventDefault();
     const isValid = validate();
     if (isValid) {
-        navigate("./");
+        navigate("/");
     }
   };
 
